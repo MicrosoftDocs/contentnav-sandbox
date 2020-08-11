@@ -22,7 +22,10 @@ contentnav-branch=MY_DOCSROOT_BRANCH_NAME
 
 ...where your branch name may be the name of a pull request branch in DocsRoot.
 
-[Follow this link to see how this looks in the address bar.](?content-nav=master)
+[Follow this link to see how this looks in the address bar.](?contentnav-branch=master)
+
+> NOTE:
+> The easiest way to find the correct branch name is to visit your DocsRoot PR in Github, find the "Validation status: Passed" message, and click one of the "view" links in the "Preview URL" column. This will navigate to the change published by OPS, and you can find the correct branch name in the "branch" parameter at the end of the URL.
 
 ## Updating this sandbox
 
